@@ -2,7 +2,13 @@
 A view that conditionally enables vertical scrolling for it's content.  This view automatically detects if the content exceeds the available height. It enables scrolling when necessary and can optionally center the content vertically. It's designed to dynamically adjust to content size, including responsiveness to accessibility font size changes. You also have the option to center content vertically.
 
 # Installation
-## Swift Package Manager
+Requirements:
+
+- iOS 16+
+- macOS 13+
+- watchOS 9+
+
+### Swift Package Manager
 1. In Xcode, open your project and navigate to File → Add Package Dependencies...
 2. Paste in the repository URL (github.com/mcolojr/ScrollWhenNeededView).
 3. For Rules, select version.
