@@ -10,7 +10,12 @@ Requirements:
 
 ### Swift Package Manager
 1. In Xcode, open your project and navigate to File → Add Package Dependencies...
-2. Paste in the repository URL (github.com/mcolojr/ScrollWhenNeededView).
+2. Paste in the repository URL:
+   
+```swift
+github.com/mcolojr/ScrollWhenNeededView
+```
+
 3. For Rules, select version.
 4. Click Add Package.
 
