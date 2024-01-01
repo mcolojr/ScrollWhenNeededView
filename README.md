@@ -1,5 +1,5 @@
 # SwiftUI - ScrollWhenNeededView
-The the [ScrollWhenNeededView](https://github.com/mcolojr/ScrollWhenNeededView/blob/main/Sources/ScrollWhenNeededView/ScrollWhenNeededView.swift) is a `SwiftUI` `View` that conditionally enables vertical scrolling for it's content.  This view automatically detects if the content exceeds the available height. It enables scrolling when necessary and can optionally center the content vertically. It's designed to dynamically adjust to content size, including responsiveness to accessibility font size changes.
+The [ScrollWhenNeededView](https://github.com/mcolojr/ScrollWhenNeededView/blob/main/Sources/ScrollWhenNeededView/ScrollWhenNeededView.swift) is a `SwiftUI` `View` that conditionally enables vertical scrolling for it's content.  This view automatically detects if the content exceeds the available height. It enables scrolling when necessary and can optionally center the content vertically. It's designed to dynamically adjust to content size, including responsiveness to accessibility font size changes.
 
 ## Installation
 Requirements:
