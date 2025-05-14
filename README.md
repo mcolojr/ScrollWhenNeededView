@@ -12,30 +12,33 @@ Requirements:
 1. In **Xcode**, open your project and navigate to **File** → **Add Package Dependencies**...
 2. **Paste** this repository URL:
    
-swift
 github.com/mcolojr/ScrollWhenNeededView
-
+```swift
+github.com/mcolojr/ScrollWhenNeededView
+```
 
 3. Click **Add Package**.
 
 ## How to Use
 Import the ScrollWhenNeededView Package to your .swift file:
-swift
-import `ScrollWhenNeededView`
 
+```swift
+import `ScrollWhenNeededView`
+```
 
 Use it like you would a ScrollView:
-swift
+
+```swift
 ScrollWhenNeededView {
     // content here
 }
+```
 
-
-swift
+```swift
 ScrollWhenNeededView(shouldCenterContentVertically: false) {
     // content here
 }
-
+```
 
 ## Contribute
 You can contribute to this project by helping me solve any [reported issues or feature requests](https://github.com/mcolojr/ScrollWhenNeededView/issues) and creating a pull request.
