@@ -32,7 +32,7 @@ struct ScrollWhenNeededViewDemonstration: View {
                         .padding()
                     }
                     #else
-                    Stepper("Number of Items: \(itemCount)", value: $itemCount, in: 0...20)
+                    Stepper("Number of Items: \(itemCount)", value: $itemCount, in: 0...30)
                         .padding()
                     #endif
                     
