@@ -18,14 +18,14 @@ public struct ScrollWhenNeededView<Content: View>: View {
     // MARK: - Properties
     // MARK: Private Properties
     @State private var contentHeight: CGFloat = 0
-    @State var shouldScroll: Bool = false
+    @State private var shouldScroll: Bool = false
     
     // MARK: Accessible Properties
     /// Determines whether the content should be centered vertically in the container
-    let shouldCenterContentVertically: Bool
+    public let shouldCenterContentVertically: Bool
     
     /// The content of the view
-    let content: () -> Content
+    public let content: () -> Content
 
     // MARK: - Init
     /// Initializes the view with specified content and centering behavior
@@ -33,7 +33,7 @@ public struct ScrollWhenNeededView<Content: View>: View {
     /// - Parameters:
     ///   - shouldCenterContentVertically: A Boolean value indicating whether the content should be centered vertically.
     ///   - content: A closure returning the content of the view.
-    init(shouldCenterContentVertically: Bool = true, @ViewBuilder content: @escaping () -> Content) {
+    public init(shouldCenterContentVertically: Bool = true, @ViewBuilder content: @escaping () -> Content) {
         self.shouldCenterContentVertically = shouldCenterContentVertically
         self.content = content
     }
